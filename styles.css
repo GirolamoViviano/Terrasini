@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center; 
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+.header {
+    background-color: #94d2f3;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 5px solid #0077b6;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #0077b6;
+}
+
+.section img.immagine {
+    max-width: 100%;
+    width: 500px; 
+    height: 400px; 
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0077b6;
+    border-bottom: 2px solid #0077b6;
+}
+
+p{
+    text-align: justify;
+}
+
+
+ul, ol {
+    list-style-type: none; /* Rimuove i pallini predefiniti */
+    padding: 0;
+}
+
+.list {
+    background: #e0f7fa; /* sfondo per gli elementi della lista */
+    margin: 5px 0; /* Spaziatura tra gli elementi della lista */
+    padding: 10px; 
+    border-radius: 4px; /* bordi arrotondati */
+    text-align: center;
+}
+
+ul li::before {
+    content: "•"; /* simbolo prima di ogni elemento */
+    color: #0077b6; /* Colore del simbolo */
+    font-weight: bold; /* usa il grassetto per il simbolo */
+    width: 1em; /* larghezza per allineare il testo */
+    margin-right: 0.5em; /* spazio tra il simbolo e il testo */
+}
+
+.footer {
+    text-align: center;
+    background-color: #0077b6;
+    color: #fff;
+    width: 100%;
+
+}
